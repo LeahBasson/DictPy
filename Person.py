@@ -9,7 +9,8 @@
 info = {"Name":"Leah","Age":20,"City":"Cape Town"}
 
 # access a value
-print(info["Name"])
+name = info["Name"]
+print(name)
 
 # add a value
 info["Email"] = "leahbasson@gmail.com"
@@ -24,7 +25,8 @@ info.pop("City")
 print(info)
 
 # check if the key exists
-print(info.get("Email"))
+result = info.get("Email")
+print(result)
 
 # Print all keys and values in the dictionary. Use a for loop.
 for key in info:
