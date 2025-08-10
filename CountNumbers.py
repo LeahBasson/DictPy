@@ -4,8 +4,8 @@ data = {"a":5,"b":"hello","c":12,"d":"True","e":7}
 
 cnt = 0
 
-for values in data:
-    if type(data[values]) == int:
+for key in data:
+    if type(data[key]) == int:
         cnt = cnt + 1
     
 print("amount of numbers:",cnt)
